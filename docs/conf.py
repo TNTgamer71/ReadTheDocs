@@ -52,11 +52,4 @@ html_static_path = ['_static']
 
 # Overwrite Master Doc so it doesn't try loading contents.rst
 master_doc = 'index'
-
-from recommonmark.parser import CommonMarkParser
-
-source_parsers = {
-    '.md': CommonMarkParser,
-}
-
 source_suffix = ['.rst', '.md']
